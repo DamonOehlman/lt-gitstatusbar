@@ -6,7 +6,7 @@
             [lt.objs.bottombar :as bottombar]
             [lt.objs.editor :as ed]
             [lt.objs.context :as ctx]
-            [lt.objs.statusbar :as statusbar]
+            [lt.objs.status_bar :as statusbar]
             [lt.util.dom :as dom]
             [lt.util.cljs :as cljs]
             [lt.objs.workspace :as workspace]
@@ -116,7 +116,7 @@
 
 (def container (object/create ::container))
 
-(statusbar/add-statusbar-item container)
+(statusbar/add-status-item container)
 
 ;; Container
 ;;
